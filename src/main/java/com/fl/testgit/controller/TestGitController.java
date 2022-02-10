@@ -5,7 +5,6 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @ProjectName: test-git
@@ -25,7 +24,7 @@ public class TestGitController {
 
         String name = "jxx";
         String sex = "male";
-        String age = "222";
+        String age = "2222";
 
         user.setName(name);
         user.setSex(sex);
