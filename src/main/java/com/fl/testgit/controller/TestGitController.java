@@ -25,7 +25,7 @@ public class TestGitController {
 
         String name = "jxx";
         String sex = "male";
-        String age = "22";
+        String age = "222";
 
         user.setName(name);
         user.setSex(sex);
